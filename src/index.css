@@ -1,0 +1,138 @@
+body {
+  background-color: #1c1c1c;
+  height: 100%;
+  width: 100%;
+}
+.wrapper {
+  background-color: #23252c;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+.profile-pic {
+  background-image: url("./images/photo-1494790108377-be9c29b29330.jpg");
+  min-height: 250px;
+  min-width: 250px;
+  background-repeat: no-repeat;
+  background-position: center -40px;
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.intro {
+  background-color: #1a1b21;
+  margin: 0;
+}
+
+.full-name {
+  margin: 0;
+  /* align-content: center; */
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  letter-spacing: -0.05em;
+  color: white;
+  font-family: "inter";
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.job-title {
+  margin: 0;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  letter-spacing: -0.05em;
+  font-size: 12px;
+  color: #f3bf99;
+  line-height: 15px;
+}
+.email {
+  margin: 0;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  letter-spacing: -0.05em;
+  font-size: 10px;
+  color: #f5f5f5;
+  line-height: 15px;
+}
+.email-btn {
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-left: 15px;
+  padding: 9px 13px 9px 11px;
+  width: 247px;
+  height: 34px;
+  left: 151px;
+  top: 469px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.icon-mail {
+  background-image: url("./images/email.png");
+  background-size: cover;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+
+.about {
+  font-size: 16px;
+  color: white;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.Interests {
+  font-size: 16px;
+  color: white;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+.about-p {
+  font-family: "inter";
+  font-size: 10px;
+  line-height: 15px;
+}
+.Interests-p {
+  font-family: "inter";
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.links {
+  justify-content: center;
+  display: flex;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  background: #918e9b;
+  margin-left: 15px;
+  margin-right: 15px;
+}
